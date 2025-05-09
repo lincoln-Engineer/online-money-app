@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin-bottom: 150px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 0;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: white;
+    color: #4a90e2;
+    border: 1px solid #4a90e2;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.info-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.stat-box {
+    flex: 1;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.purple {
+    background-color: #ebc6e4;
+}
+
+.blue {
+    background-color: #cce4f7;
+}
+
+.yellow {
+    background-color: #fff9c4;
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.date-filter input {
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.team-details {
+    margin-top: 20px;
+}
+
+@media screen(max-width:500px) {
+    .date-filter {
+        size-adjust: 20px;
+    }
+}

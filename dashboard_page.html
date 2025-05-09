@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style 6.css">
+    <link rel="stylesheet" href="style 7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top Section -->
+        <div class="top-section">
+            <div class="user-info">
+                <img src="profile.jpg" alt="Profile" class="profile-pic">
+                <div>
+                    <p class="user-id">998123456</p>
+                    <p class="user-role">Regular employees</p>
+                </div>
+                <div class="intern">
+                    <p>intern</p>
+                    <span>cs: 90</span>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="btn deposit">Deposit</button>
+                <button class="btn withdraw">Withdraw</button>
+            </div>
+            <div class="wallet-info">
+                <h2>Income Wallet (KES)</h2>
+                <p class="amount">KES 0.00</p>
+                <h2>Personal Wallet (KES)</h2>
+                <p class="amount">KES 0.00</p>
+                <p class="effective-date">Effective Date: 2025/05/07 - 23:59:59 2025/05/10</p>
+            </div>
+
+
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom-section">
+            <h3>Earnings</h3>
+            <div class="earnings-grid">
+                <div class="earning-item">Yesterday<br><span>KES 0.00</span></div>
+                <div class="earning-item">Today<br><span>KES 0.00</span></div>
+                <div class="earning-item">This Week<br><span>KES 0.00</span></div>
+                <div class="earning-item">This Month<br><span>KES 0.00</span></div>
+                <div class="earning-item">Task Income of Team<br><span>KES 0.00</span></div>
+                <div class="earning-item">Invitation Income of Team<br><span>KES 0.00</span></div>
+
+            </div>
+            <div class="total-income">Total Income<span>KES 0.00</span></div>
+            <div class="security-deposit">Security Deposit<span>KES 0.00</span></div>
+            <div class="options">
+                <h4>Options</h4>
+                <ul>
+                    <li>Settings <a class="next" onclick="">&#10095;</a></li>
+                    <li>Financial Records <a class="next" onclick="">&#10095;</a></li>
+                    <li>Transaction Records <a class="next" onclick="">&#10095;</a></li>
+                    <li>Download App <a class="next" onclick="">&#10095;</a></li>
+                    <li>Lucky Wheel <a class="next" onclick="">&#10095;</a></li>
+                    <li>Message <a class="next" onclick="">&#10095;</a></li>
+                    <li>Invite <a class="next" onclick="">&#10095;</a></li>
+                    <li>Language <a class="next" onclick="">&#10095;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+
+
+
+
+    <div class="floating-footer">
+        <a href="home_page.html">
+            <div class="footer-icon" data-page="home" onclick="activatePage('home')">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+        </a>
+        <a href="task_page.html">
+            <div class="footer-icon" data-page="task" onclick="activatePage('task')">
+                <i class="fas fa-tasks"></i>
+                <span>Task</span>
+            </div>
+        </a>
+        <a href="wealth.html">
+            <div class="footer-icon active" data-page="wealth" onclick="activatePage('wealth')">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Wealth</span>
+            </div>
+        </a>
+        <a href="team.html">
+            <div class="footer-icon" data-page="team" onclick="activatePage('team')">
+                <i class="fas fa-users"></i>
+                <span>Team</span>
+            </div>
+        </a>
+        <a href="dashboard_page.html">
+            <div class="footer-icon" data-page="profile" onclick="activatePage('profile')">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </div>
+        </a>
+    </div>
+
+</body>
+
+</html>

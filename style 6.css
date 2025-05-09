@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 150px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.top-section {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.wallet-info h2 {
+    margin: 10px 0 5px;
+}
+
+.amount {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.intern {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bottom-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.earnings-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.earning-item,
+.total-income,
+.security-deposit {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.total-income,
+.security-deposit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 5px 0;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
